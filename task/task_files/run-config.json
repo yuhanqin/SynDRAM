@@ -1,0 +1,4 @@
+{
+  "format": "syndram-run-config-v1",
+  "aggregate_sim_time_limit_ps": 100000000000
+}

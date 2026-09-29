@@ -1,0 +1,27 @@
+{
+  "format": "syndram-trace-svh-v1",
+  "time_base": "ps",
+  "semantics": "Each block waits delay_ps from the preceding snapshot and atomically replaces every retained host-driven pin.",
+  "signals": {
+    "CK0_t": {"width": 1, "alphabet": "01"},
+    "CK0_c": {"width": 1, "alphabet": "01"},
+    "CS0": {"width": 1, "alphabet": "01"},
+    "CA0": {"width": 4, "alphabet": "01"},
+    "WCK0_t": {"width": 1, "alphabet": "01"},
+    "WCK0_c": {"width": 1, "alphabet": "01"},
+    "DQ0": {"width": 12, "alphabet": "01z"},
+    "CK1_t": {"width": 1, "alphabet": "01"},
+    "CK1_c": {"width": 1, "alphabet": "01"},
+    "CS1": {"width": 1, "alphabet": "01"},
+    "CA1": {"width": 4, "alphabet": "01"},
+    "WCK1_t": {"width": 1, "alphabet": "01"},
+    "WCK1_c": {"width": 1, "alphabet": "01"},
+    "DQ1": {"width": 12, "alphabet": "01z"}
+  },
+  "differential_pairs": [
+    ["CK0_t", "CK0_c"],
+    ["WCK0_t", "WCK0_c"],
+    ["CK1_t", "CK1_c"],
+    ["WCK1_t", "WCK1_c"]
+  ]
+}

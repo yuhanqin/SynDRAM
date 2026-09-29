@@ -1,0 +1,12 @@
++incdir+src
+src/syndram_sample_pkg.sv
+src/syndram_if_config_sampling.sv
+src/syndram_timing_coverage.sv
+src/syndram_terminal_coverage.sv
+src/syndram_clock_odt_monitor.sv
+src/syndram_deff_exit_monitor.sv
+src/syndram_refdb_monitor.sv
+src/cbt_pin_binding.sv
+src/window_pin_binding.sv
+src/syndram_trace_driver.sv
+src/syndram_trace_coverage_top.sv
